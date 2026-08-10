@@ -66,3 +66,15 @@ Tells you what type each file is in the current directory
 ## Level 5 → 6
 ### Commands used
 ``` bash
+find . -type f -size 1033c ! -executable
+cat ./maybehere07/.file2
+```
+
+### What this does
+finds a file from the current directory that is exactly 1033 bytes (c=bytes) and the file must not be executable
+
+---
+
+## Level 6 → 7
+### Commands used
+``` bash
