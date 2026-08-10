@@ -54,3 +54,15 @@ Changes directory and lists hidden files
 ## Level 4 → 5
 ### Commands used
 ``` bash
+file ./*
+cat ./-file07
+```
+
+### What this does
+Tells you what type each file is in the current directory
+
+---
+
+## Level 5 → 6
+### Commands used
+``` bash
