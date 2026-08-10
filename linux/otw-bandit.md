@@ -71,10 +71,22 @@ cat ./maybehere07/.file2
 ```
 
 ### What this does
-finds a file from the current directory that is exactly 1033 bytes (c=bytes) and the file must not be executable
+Finds a file from the current directory that is exactly 1033 bytes (c=bytes) and the file must not be executable
 
 ---
 
 ## Level 6 → 7
+### Commands used
+``` bash
+find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
+cat /var/lib/dpkg/info/bandit7.password
+```
+
+### What this does
+Finds a file owned by user bandit7 and group bandit6 with the size 33 bytes, whilst also ignoring error messages (Permission denied)
+
+---
+
+## Level 7 → 8
 ### Commands used
 ``` bash
